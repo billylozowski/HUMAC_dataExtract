@@ -1,4 +1,4 @@
-# this code extracts data from HUMAC .pdf reports
+# this code extracts data from long format position vs. time HUMAC .pdf reports.
 
 # ------------------------------------------------------------------------------
 # metrics & column builders
