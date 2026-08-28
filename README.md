@@ -15,8 +15,12 @@ When calling the function, "sport" and "session" need to be defined.
 However, folder structure can be defined as the user chooses. If the structure is changed, ensure that the .csv file
 is saved to the desired location by updating these variables.
 
-For example: data > subfolder_1 > ... > subfolder_n (data/subfolder_1/.../subfolder_n)
+For example: 
 
-then: write_csv(session.data, file.path(folder_OUT, paste0("Extracted HUMAC Data for ", subfolder_1, " - ", subforlder_n, ".csv")))
+data > subfolder_1 > ... > subfolder_n (data/subfolder_1/.../subfolder_n)
+
+then:
+
+write_csv(session.data, file.path(folder_OUT, paste0("Extracted HUMAC Data for ", subfolder_1, " - ", subforlder_n, ".csv")))
 
 
